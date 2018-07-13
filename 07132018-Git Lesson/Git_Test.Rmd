@@ -1,0 +1,33 @@
+---
+title: "Git_Test"
+author: "Cody Flagg"
+date: "July 13, 2018"
+output: rmarkdown::github_document
+---
+
+## dplyr example 
+
+* Feel free to add, change, or remove text and code from this file
+* Push changes to Git to practice the workflow
+
+```{r}
+library(dplyr)
+library(skimr)
+
+# dataset about forest fires in Portugal
+data <- read.csv('https://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv', stringsAsFactors = FALSE)
+
+data_profile <- skim(data)
+
+```
+
+
+```{r}
+print(kable(data_profile), type = 'html')
+```
+
+```{r}
+
+
+
+```
