@@ -1,0 +1,3 @@
+Folders will not appear on GitHub unless there are files within it. 
+
+This folder's name can be changed without major problems i.e. once the meeting date is established. 
